@@ -1,3 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+}
 
+header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid whitesmoke;
+}
+header .logo {
+  height: 80px;
+  width: 15%;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header menu {
+  height: 80px;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+header menu nav {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+header menu ul {
+  height: 100%;
+  width: 100%;
+  list-style-type: none;
+  background-color: red;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .auth {
+  height: 80px;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .signin {
+  background-color: gray;
+  border: 1px solid gray;
+}
+header .signup {
+  background-color: violet;
+  opacity: 0.3;
+  border: none;
+}
 
 /*# sourceMappingURL=style.css.map */
